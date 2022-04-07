@@ -7,7 +7,9 @@
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
-
+    .mobile-menu-btn {
+        display: none;
+    }
 }
 
 /* Mobile */
