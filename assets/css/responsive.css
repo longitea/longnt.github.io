@@ -14,11 +14,63 @@
 
 /* Mobile */
 @media (max-width: 740px) {
-    #nav > li {
-        display: block;
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .s-col-full {
+        width: 100%;
+        padding-top: 8px;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #header{
+        overflow: hidden;
     }
     #header .search-btn {
         display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+        right: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        /* reset về giá trị mặc định của nó trong trường hợp này là bỏ luôn position là absolute */
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 10px 41px;
+    }
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #content .member-item {
+        width: 100%;
+    }
+
+    #content .member-img{
+        width: 50%;
+    }
+    #content .about-text{
+        font-size: 12px;
     }
 }
 

@@ -73,6 +73,7 @@ html{
     text-decoration: none;
     margin-top: 14px;
     border:none;
+    text-align: center;
 
 }
 
@@ -139,7 +140,7 @@ h1{
     height: 46px;
     background-color: #000;
     z-index: 1;
-    overflow: hidden;
+
 }
 #header .mobile-menu-btn,
 #header .search-btn{
